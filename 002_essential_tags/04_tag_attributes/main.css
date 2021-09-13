@@ -1,0 +1,12 @@
+div{
+    width:fit-content;
+    height:fit-content;
+    background-color: blueviolet;
+}
+
+ /* this will look for every class named happiness inside any tag */
+.happiness{
+    color: red;
+    font-size: 50px;
+    margin-left: 300px;
+}
