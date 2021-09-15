@@ -1,0 +1,9 @@
+img.resize{
+    max-width: 15%;
+    max-height: 15%;
+}
+/* To apply this you have to add class="resize" to the img tag */
+
+p{
+    size: 10cm;
+}

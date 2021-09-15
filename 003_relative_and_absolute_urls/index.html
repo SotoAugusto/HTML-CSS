@@ -2,13 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Document</title>
+    <!-- href es un relative url -->
+    <link rel="stylesheet" href="main.css">
+
 </head>
 <body>
 
-    <p>relative</p>
+<font size="+2">Relative and Absolute URLs</font>
+
+<font class=""></font>
+<font></font>
+<size></size>
+
+
+
+    <h1>Relative</h1>
     <ul>
 
         <li>within one domain/ website: relative to one resource, where is the other resoruce</li>
@@ -21,15 +31,22 @@
         </ul>
     </ul>
 
+    <img  width="15%" height="15%" src="coffee.jpg" alt="src is using a relative url">
+    <div>the src attribute of this image is using a relative url ,"coffee.jpg"  </div>
+    <div></div>
+    <br>
+<div>the href attribute in the link tag is a relative link too</div>
+<br>
+<img class="resize" src="img/triangles.png" alt="">
+<div>the src attribute of this image is using a relative url ,"img/triangles.png"  </div>
 
-    <p>absolute</p>
+   <h1>Absolute</h1>
         <ul>
             <li>full url
                 <ul>
                     <li>https://docs.emmet.io/cheat-sheet/</li>
                 </ul>
             </li>
-
             <li>from the root of a site, where is the resource
                 <ul>
                     <li>If the path part of the URL starts with the "/" character, the browser will fetch that resource from the top root of the server, without reference to the context given by the current document.</li>
@@ -37,5 +54,14 @@
                 </ul>
             </li>
         </ul>
+
+
+
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Dog_coat_variation.png/220px-Dog_coat_variation.png" alt="This is an absolute url">
+        <div>This is an absoulute url, in the src att is using "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Dog_coat_variation.png/220px-Dog_coat_variation.png"</div>
+        <br>
+        <img src="/img/book.jpg" alt="">
+        <div>This is algo an absolute url, is using "/img/book.jpg"</div>
 </body>
 </html>
