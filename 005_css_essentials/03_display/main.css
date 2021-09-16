@@ -1,0 +1,48 @@
+
+
+
+/* Rule set */
+div{
+    /* Code block */
+    
+    
+        /* Properties : values */
+
+        /* width: 100px; */
+        height: 100px;
+        border: 3px solid rebeccapurple;
+        border-radius: 10px;
+        background-image: url(../../img/coffee.jpg);
+        background-size: cover;
+        /* repeat with sizes is redundant */
+        background-repeat: no-repeat;
+
+        /* display: none;
+        display: block; */
+        /* display: table; */
+        /* display: inline; */
+        
+    }
+    
+    img{
+       border: 10px groove coral; 
+       width: 150px;
+        height: 150px;
+        border-radius: 100%;
+    }
+    
+    .hedgehog1{
+        border: 10px dashed green;
+    }
+    
+    .hedgehog2{
+        border: 10px dotted palevioletred;
+    }
+    
+    .hedgehog3{
+        border: 10px double khaki;
+    }
+    
+    .hedgehog4{
+        border: 10px groove lightseagreen;
+    }
