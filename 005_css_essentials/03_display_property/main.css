@@ -8,7 +8,7 @@ div{
     
         /* Properties : values */
 
-        width: 100px;
+        /* width: 100px; */
         height: 100px;
         border: 3px solid rebeccapurple;
         border-radius: 10px;
@@ -17,25 +17,18 @@ div{
         /* repeat with sizes is redundant */
         background-repeat: no-repeat;
 
-        /* display: none;*/
-        /* display: block;  */
-        display: inline-block;
+        /* display: none; */
+        display: block; 
         /* display: table; */
         /* display: inline; */
         
     }
-    /* :not(WHAT YOU WANT TO KEEP IN EXCEPTION) */
-
-    img:not(.example){
-       /* border: 10px groove coral;  */
+    
+    img{
+       border: 10px groove coral; 
        width: 150px;
         height: 150px;
         border-radius: 100%;
-
-        /* padding is in between content and border */
-        padding: 20px;
-        /* space between the elements */
-        margin: 40px;
     }
     
     .hedgehog1{
@@ -53,4 +46,3 @@ div{
     .hedgehog4{
         border: 10px groove lightseagreen;
     }
-

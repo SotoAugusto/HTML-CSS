@@ -12,6 +12,7 @@ div{
         border: 3px solid rebeccapurple;
         border-radius: 100%;
         background-image: url(../../img/coffee.jpg);
+        /* Makes the image fill the space of the div */
         background-size: cover;
         /* repeat with sizes is redundant */
         background-repeat: no-repeat;

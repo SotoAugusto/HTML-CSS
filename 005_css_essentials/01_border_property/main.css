@@ -1,0 +1,34 @@
+/* Rule set */
+div, img{
+    /* Code block */
+    
+    
+        /* Properties : values */
+
+        width: 150px;
+        height: 150px;
+        border: 5px solid rebeccapurple;
+    }
+    
+    img{
+       border: 13px groove coral; 
+    }
+
+    /* Although tiangles also are img, this overwrites the rule set of img */
+    .triangle1{
+        border: 13px dashed green;
+    }
+    
+    .triangle2{
+        border: 13px dotted palevioletred;
+    }
+    
+    .triangle3{
+        border: 13px double khaki;
+    }
+    
+    .triangle4{
+        border: 13px groove lightseagreen;
+    }
+    
+    

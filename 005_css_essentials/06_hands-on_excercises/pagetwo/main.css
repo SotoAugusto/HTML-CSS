@@ -1,0 +1,16 @@
+div{
+    width: 400px;
+    height: 200px;
+    border: 10px dashed red;
+    margin: 20px auto;
+}
+
+.two{
+    box-sizing: border-box;
+}
+
+.three{
+    background-image: url("../../../img/triangles.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
