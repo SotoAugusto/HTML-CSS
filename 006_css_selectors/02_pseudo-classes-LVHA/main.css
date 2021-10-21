@@ -1,0 +1,47 @@
+body{
+    font-size:xx-large;
+    color:gray;
+    text-align: center;
+    border:10px dashed coral;
+}
+
+/* default color for a link */
+a:link{
+color: orange;
+}
+
+/* clicked a link previously */
+a:visited{
+color:red;
+}
+
+/* hover over element */
+a:hover{
+color:rgb(182, 103, 7)
+
+}
+
+/* click a link or element that is active */
+a:active{
+color:greenyellow;
+}
+
+[type=submit]:link{
+    color:black;
+}
+
+
+[type=submit]:visited{
+color:red;
+}
+
+/* hover over element */
+[type=submit]:hover{
+color:rgb(182, 103, 7)
+
+}
+
+/* click a link or element that is active */
+[type=submit]:active{
+color:greenyellow;
+}
