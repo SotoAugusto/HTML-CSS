@@ -1,0 +1,72 @@
+body{
+    font-size:26px;
+}
+
+/* 1 */
+#third{
+    color:red;
+}
+
+/* 2  Note, this could be also acomplished by giving each li the same class, and select the .class here*/
+/* But, this solution is more modular. */
+.selectme>li:nth-child(3), ol.selectme>li:nth-child(4), ol.selectme>li:nth-child(5){
+    color:red;
+}
+/* 3 */
+[target]{
+    border:3px solid brown;
+}
+
+
+/* 4 */
+.twitterlink:link{
+color:green;
+}
+.twitterlink:visited{
+color:red;
+}
+.twitterlink:hover{
+color:blueviolet;
+}
+.twitter:active{
+color:cyan;
+}
+
+
+/* 5 */
+.p1{
+    max-width: 600px;
+    margin:0 auto;
+    text-indent: 20px;
+}
+
+.p1::first-letter{
+font-size: 46px;
+color: cornflowerblue;
+font-family: Consolas;
+}
+
+.p1::first-line{
+font-weight: bolder;
+}
+
+/* 6 Select all p tags that are children of a div and make them red. */
+.div1 p{
+color:red;
+}
+
+
+/* 7 select all p tags that are immediate children of a div and make them red.  */
+.div2 > p{
+    color:red;
+}
+
+/* 8 select all p tags that are siblings following a div and make them red. */
+.div3 ~ p{
+    color:red;	
+}
+
+/* 9 select all p tags that are an immediate sibling following a div and make it red.  */
+#div4 + p{
+    color:red;
+}

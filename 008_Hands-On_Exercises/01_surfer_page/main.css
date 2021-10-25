@@ -1,0 +1,31 @@
+html{
+    background-color:blue;
+}
+
+body{
+    padding-top:50px;
+    max-width: 600px;
+    background-color: green;
+    border: 10px solid black;
+    margin: 0 auto;
+
+}
+
+img{
+    /* to make margin 0 auto work */
+    display: block;
+    /* to make it rounded */
+    border-radius: 75%;
+    border: 10px double yellow;
+    width: 400px;
+    /* To center image */
+    margin:0 auto;
+}
+
+h1{
+    color: blue;
+}
+
+h2{
+    color:red;
+}

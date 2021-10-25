@@ -1,0 +1,30 @@
+body{
+    font-size: large;
+}
+
+li:nth-child(even){
+    color: blue;
+}
+
+li:first-child{
+    color:red;
+}
+
+li:last-child{
+    background-color: yellowgreen;
+
+}
+
+ul.new{
+    background-color:darkgoldenrod;
+}
+
+ul:first-child{
+    
+    background-color: limegreen;
+}
+
+ol:last-child{
+
+    background-color: rgb(181, 159, 202);
+  }

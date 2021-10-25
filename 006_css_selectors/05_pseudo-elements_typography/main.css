@@ -1,0 +1,22 @@
+
+
+p{
+    margin: 20px;
+    max-width: 600px;
+    /* esp, sangría */
+    text-indent: 20px;
+
+    font-family: Consolas;
+}
+
+/* :: pseudo ELEMENT, not pseudoclass */
+p::first-letter{
+font-family: cursive;
+font-size: 36px;
+line-height: .5;
+}
+/* :: pseudo ELEMENT, not pseudoclass */
+p::first-line{
+color: rgb(116, 16, 82);
+font-weight: bold;
+}
