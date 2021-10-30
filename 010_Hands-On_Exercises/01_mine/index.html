@@ -8,6 +8,7 @@
     <title>Document</title>
 </head>
 <body>
+
     ● (1) Write some CSS that has two rules applying to the same element. The first rule
 should use a class and the second rule should use an ID. Calculate the CSS specificity
 of each rule to explain which rule won. <br>
@@ -15,33 +16,62 @@ of each rule to explain which rule won. <br>
 <p class="one" id="one">
     #one {color:blue
     <br>
-    .one {color:red
+    vs
     <br>
-    the color blue will get applied
+    .one {color:red
+
 </p>
 
 ● (2) Write some CSS that has two rules applying to the same element. The first rule
 should use an element selector and the second rule should use an ID. Calculate the
 CSS specificity of each rule to explain which rule won. <br>
-<div>
+<div id="two" >
     div {color:red}
     <br>
-    
+    vs
+    <br>
+    #two{color:blue}
 </div>
 
 ● (3) Write some CSS that has two rules applying to the same element. The first rule
 should use an element selector and the second rule should use a class. Calculate the
 CSS specificity of each rule to explain which rule won. <br>
+<h1 class="classheader">
+    h1{color:aqua}
+    <br>
+    vs
+    <br>
+    .classheader{color:darkblue}
+</h1>
+
 
 ● (4) Write some CSS that has two rules applying to the same element. The first rule
 should use an element selector and the second rule should use an attribute. Calculate
 the CSS specificity of each rule to explain which rule won. <br>
 
+<h2 style="text-align:right" >
+h2{color: darkviolet;}
+<br>
+vs
+<br>
+[style]{color:crimson;}
+</h2>
+
 ● (5) Write some CSS that has two rules applying to the same element. The first rule
 should use an class selector and the second rule should use an attribute. Calculate the
 CSS specificity of each rule. Explain which rule won and why. <br>
 
+<div class="div5" align="center" >
 
+    .div5{color:darkolivegreen}
+    <br>
+    vs
+    <br>
+    [align]{color:darkorchid;}
+    <br>
+    Same level, last one everwrittes the value.
+
+</div>
 
 </body>
 </html>

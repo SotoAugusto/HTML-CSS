@@ -1,3 +1,8 @@
+body{
+    font-family: Spectral,serif;
+    font-size: x-large;
+}
+
 /* 1 */
 #one{
     color: blue;
@@ -8,7 +13,42 @@
 
 /* 2 */
 div{
+color:red;
+}
 
+#two{
+color:blue;
 }
 
 
+/* 3 */
+
+h1{
+    color:aqua
+}
+
+.classheader{
+    color:darkblue
+}
+
+
+/* 4 */
+
+
+h2{
+    color: darkviolet;
+}
+
+[style]{
+color:crimson;
+}
+
+/* 5 */
+
+.div5{
+    color:darkolivegreen
+}
+
+[align="center"]{
+    color:darkorchid;
+}
