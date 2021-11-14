@@ -1,0 +1,22 @@
+h2 {
+    font-size: 5vw; 
+}
+
+p{
+    text-align:justify;
+    font-size: 2rem;
+}
+
+/* Start here */
+
+.letter{
+    letter-spacing: 2rem;
+}
+
+.word{
+    word-spacing: 2rem;
+}
+
+.color{
+    color: hotpink;
+}
