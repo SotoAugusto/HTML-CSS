@@ -3,7 +3,7 @@ h2 {
     font-size: 5vw; 
 }
 
-p{
+p, div{
     text-align:justify;
     font-size: 2rem;
 }
@@ -33,4 +33,24 @@ p{
 .shadow{
     /* text-shadow: offset-x | offset-y | blur-radius | color */
     text-shadow: 3px 3px 5px deeppink;
+}
+
+.none{
+    text-decoration: none;
+}
+
+.underline{
+text-decoration: underline;
+}
+
+.overline{
+text-decoration: overline;
+}
+
+.line-through{
+text-decoration: line-through;
+}
+
+.all{
+    text-decoration: underline overline line-through;
 }
