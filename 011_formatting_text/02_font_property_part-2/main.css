@@ -54,3 +54,16 @@ text-decoration: line-through;
 .all{
     text-decoration: underline overline line-through;
 }
+
+.indent{
+    /* text-indent: 30px; */
+    text-indent: 4rem;
+    /* text-indent: 30%; */
+    /* text-indent: -3rem; */ 
+
+
+    /* Makes the p have a maximum size of 70/100 on the screen */
+    max-width: 70vw;
+    /* Centers the box int he middle of screen */
+    margin: 0 auto; 
+}
