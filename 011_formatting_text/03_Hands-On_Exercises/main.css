@@ -1,0 +1,50 @@
+body{
+    font-size: 3rem;
+}
+
+.serif{
+    font-family:serif;
+}
+
+.sans{
+    font-family:sans-serif;
+}
+
+.google{
+    font-family: 'Comfortaa', cursive;
+}
+
+
+.googlebold {
+    font-weight: 700;
+}
+
+.upperitalic{
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.space_ch{
+    letter-spacing: 2rem;
+}
+
+h1{
+    /* text-shadow: offset-x | offset-y | blur-radius | color */
+    text-shadow: 3px 3px 1px rgb(212, 83, 83);
+}
+
+.no_underline{
+    text-decoration: none;
+}
+
+.no_underline:hover{
+    text-decoration: underline;
+}
+
+.norelevant{
+    text-decoration: line-through;
+}
+
+.indent{
+    text-indent: 3rem;
+}
