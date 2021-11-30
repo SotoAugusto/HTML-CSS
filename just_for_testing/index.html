@@ -1,35 +1,39 @@
-<!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="main.css">
-    <title></title>
-</head>
-<body>
-
-<h1>HERE'S THE PROBLEM:</h1>
-
-<div>
-    <p>no padding</p>
-</div>
-
-
-<div class="pad-me">
-    <p>padding 2</p>
-</div>
-
-<h1>HERE'S THE SOLUTION:</h1>
-
-<div class="bb">
-    <p>no padding</p>
-    <p>box-sizing: border-box;</p>
-</div>
-
-<div class="pad-me bb">
-    <p>padding</p>
-    <p>box-sizing: border-box;</p>
-    <p>PADDING & BORDER no longer increase my width</p>
-</div>
-
-</body>
-</html>
+<article class="film_review">
+    <h2>Jurassic Park</h2>
+    <section class="main_review">
+      <h3>Review</h3>
+      <p>Dinos were great!</p>
+    </section>
+    <section class="user_reviews">
+      <h3>User reviews</h3>
+      <article class="user_review">
+        <h4>Too scary!</h4>
+        <p>Way too scary for me.</p>
+        <footer>
+          <p>
+            Posted on
+            <time datetime="2015-05-16 19:00">May 16</time>
+            by Lisa.
+          </p>
+        </footer>
+      </article>
+      <article class="user_review">
+        <h4>Love the dinos!</h4>
+        <p>I agree, dinos are my favorite.</p>
+        <footer>
+          <p>
+            Posted on
+            <time datetime="2015-05-17 19:00">May 17</time>
+            by Tom.
+          </p>
+        </footer>
+      </article>
+    </section>
+    <footer>
+      <p>
+        Posted on
+        <time datetime="2015-05-15 19:00">May 15</time>
+        by Staff.
+      </p>
+    </footer>
+  </article>
