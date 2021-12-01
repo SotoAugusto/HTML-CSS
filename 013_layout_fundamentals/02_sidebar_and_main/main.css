@@ -1,0 +1,41 @@
+*{
+    /* This two will make a outline border for debbuging, and make that the borders don't break the layout*/
+    border: 1px dashed darkgray;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 2rem;
+    width: 90%;
+    max-width: 100%;
+    /* TB RL */
+    /* padding: 2.5% 5%; */
+}
+
+header{
+    text-align: center;
+}
+
+nav{
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: rgb(170, 170, 170);
+}
+
+main{
+    display: inline-block;
+    width: 75%;
+    text-align: justify;
+}
