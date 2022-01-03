@@ -1,0 +1,66 @@
+/* header{
+    width: 500px;
+    height: 350px;
+} */
+
+html{
+    font: bold 2rem sans-serif;
+}
+.nowrap{
+border: 3px dashed navy;
+
+display: flex;
+
+/* Default properties */
+
+/* flex-direction: row; */
+/* flex-wrap: nowrap; */
+}
+
+.nowrapcolumn{
+    border: 3px dashed navy;
+    display: flex;
+    flex-direction: column;
+}
+
+.nowrapcolumnreverse{
+    border: 3px dashed navy;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.wrap{
+    border: 2px dashed blueviolet ;
+
+    display: flex;
+
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.wrapreverse{
+    border: 2px dashed chartreuse;
+
+    display:flex;
+
+    flex-wrap: wrap-reverse;
+    flex-direction: column-reverse;
+}
+
+div{
+    width: 150px;
+    height: 150px;
+    background-color: tomato;
+    border: 2px dashed black;
+    text-align: center;
+
+    /* To center numbers inside the divs */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center{
+    text-align: center;
+}

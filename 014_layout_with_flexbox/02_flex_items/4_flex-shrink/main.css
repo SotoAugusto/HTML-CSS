@@ -1,0 +1,50 @@
+/* flex container */
+header {
+  border: dashed 2px gray;
+  height: 80vh;
+  display: flex;
+
+  /* You might want to set  nowrap to work properly 
+    if the size of the window and item is not long enough*/
+  flex-flow: row nowrap;
+}
+/* flex item */
+div {
+  width: 25rem;
+  height: 5rem;
+  border: solid 1px black;
+  background-color: tomato;
+  margin: 0.1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* First header */
+.one div {
+  flex-shrink: 1;
+}
+
+.one .item3 {
+  flex-shrink: 2;
+}
+
+/* Second header */
+.two div {
+  flex-shrink: 1;
+}
+
+.two .item2,
+.two .item4 {
+  flex-shrink: 2;
+}
+
+.two .item3 {
+  flex-shrink: 3;
+}
+
+/* Third header */
+.three div {
+  flex-shrink: 1;
+}
+.three .item2 {
+  flex-shrink: 5;
+}

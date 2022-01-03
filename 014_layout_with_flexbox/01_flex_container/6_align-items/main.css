@@ -1,0 +1,86 @@
+html{
+    font-size: 2rem;
+}
+
+header{
+    border: dashed 2px gray;
+    height: 90vh;
+}
+
+/* my header .center is the flex container */
+.topleft{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.topcenter{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.topright{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.centerleft{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.center{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerright{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.bottomleft{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.bottomcenter{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.bottomright{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+div{
+    width: 3rem;
+    height: 3rem;
+    border: solid 1px black;
+    background-color: tomato;
+    
+    /* To center text inside the divs */
+    display: flex;
+    justify-content: center; /*Centers horizontally*/
+    align-items: center; /*Centers vertically*/
+
+}

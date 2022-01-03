@@ -1,0 +1,74 @@
+/* flex container */
+header {
+    border: dashed 2px gray;
+    height: 80vh;
+
+    display: flex;
+  
+    /* You might want to set  nowrap to work properly 
+      if the size of the window and item is not long enough*/
+    flex-flow: row nowrap;
+
+  }
+  /* flex item */
+  div {
+    width: 25rem;
+    height: 5rem;
+    border: solid 1px black;
+    background-color: tomato;
+    margin: 0.1rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .one div{
+      /* flex basis fill */
+      flex-basis: fill;
+      flex-grow: 1;
+      flex-shrink: 1;
+  }
+
+  .one .item3{
+      flex-grow: 2;
+      flex-shrink: 2;
+  }
+
+
+
+  .two div{
+      /* flex-basis auto
+      'look at the width and height of the item' */
+      flex-basis: auto;
+  }
+
+  .two .item1,
+  .two .item5{
+      flex-grow: 1;
+      flex-shrink: 1;
+  }
+
+  .two .item2,
+  .two .item4{
+      flex-grow: 2;
+      flex-shrink: 2;
+  }
+
+  .two .item3{
+      flex-grow: 3;
+      flex-shrink: 3;
+  }
+
+
+  .three div{
+      /* flex-basis content 
+      the base size of the item fits the
+      content inside it*/
+      flex-basis: content;
+      flex-grow: 1;
+      flex-shrink: 1;
+  }
+
+  .three .item2{
+      flex-grow: 5;
+      flex-shrink: 5;
+  }

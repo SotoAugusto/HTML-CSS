@@ -1,0 +1,67 @@
+html{
+    font-size: 2rem;
+}
+
+header{
+    border: dashed 2px gray;
+}
+
+/* my header .center is the flex container */
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.end{
+    display: flex;
+    justify-content: end;
+}
+
+.start{
+    display: flex;
+    justify-content: start;
+}
+
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.right{
+    display: flex;
+    justify-content: right;
+}
+
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.space-around{
+    display: flex;
+    justify-content: space-around;
+}
+
+.space-evenly{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.stretch{
+    display: flex;
+    justify-content: stretch;
+}
+
+
+div{
+    width: 5rem;
+    height: 5rem;
+    border: solid 1px black;
+    background-color: tomato;
+    
+    /* To center text inside the divs */
+    display: flex;
+    justify-content: center; /*Centers horizontally*/
+    align-items: center; /*Centers vertically*/
+
+}

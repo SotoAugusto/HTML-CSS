@@ -1,0 +1,65 @@
+header{
+    border: dashed 2px gray;
+    height: 80vh;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+}
+div{
+    width: 8rem;
+    height: 5rem;
+    border: solid 1px black;
+    background-color: tomato;
+    margin: 0.1rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.order_backwards .a,
+.order_random .c{
+    order: 10;
+}
+
+.order_backwards .b,
+.order_random .f{
+    order: 9;
+}
+
+.order_backwards .c,
+.order_random .a{
+    order: 8;
+}
+
+.order_backwards .d,
+.order_random .i{
+    order: 7;
+}
+
+.order_backwards .e,
+.order_random .d{
+    order: 6;
+}
+
+.order_backwards .f{
+    order: 5;
+}
+
+.order_backwards .g{
+    order: 4;
+}
+
+.order_backwards .h{
+    order: 3;
+}
+
+.order_backwards .i{
+    order: 2;
+}
+
+.order_backwards .j{
+    order: 1;
+}
+
+.order_backwards_another{
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}

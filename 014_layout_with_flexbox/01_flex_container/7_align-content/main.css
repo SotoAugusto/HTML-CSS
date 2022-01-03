@@ -1,0 +1,119 @@
+html{
+    font-size: 2rem;
+}
+
+div{
+    width: 3rem;
+    height: 3rem;
+    border: solid 1px black;
+    background-color: tomato;
+    margin: 0.1rem;
+    /* To center text inside the divs */
+    display: flex;
+    justify-content: center; /*Centers horizontally*/
+    align-items: center; /*Centers vertically*/
+}
+
+header{
+    border: dashed 2px gray;
+    height: 92vh;
+}
+
+
+/* my header .center is the flex container */
+.spacearound{
+    display: flex;
+    flex-flow: wrap row;
+    /* align-items: space-around; */
+
+    align-content: space-around;
+}
+
+.spacearoundcol{
+    display: flex;
+    flex-flow: wrap column;
+    /* align-items: space-around; */
+
+    align-content: space-around;
+}
+
+.spacebetween{
+    display: flex;
+    flex-flow: wrap row;
+    /* align-items: space-between; */
+
+    align-content: space-between;
+}
+
+.spacebetweencol{
+    display: flex;
+    flex-flow: wrap column;
+    /* align-items: space-between; */
+
+    align-content: space-between;
+}
+
+.space-evenly{
+    display: flex;
+    flex-flow: wrap row;
+    /* align-items: space-evenly; */
+
+    align-content: space-evenly;
+}
+
+.space-evenlycol{
+    display: flex;
+    flex-flow: wrap column;
+    /* align-items: space-evenly; */
+
+    align-content: space-evenly;
+}
+
+.stretch{
+    display: flex;
+    flex-flow: wrap row;
+    align-items: stretch;
+
+    /* align-content: stretch; */
+}
+
+.stretch div{
+    width: 3rem;
+    /* Because the align-content works on the 
+    cross-axis, and this is a row
+    you can't set a width (cross=column, vertical, height) */
+    height: auto;
+    border: solid 1px black;
+    background-color: tomato;
+    
+    /* To center text inside the divs */
+    text-align: center;
+}
+
+.stretchcol{
+    display: flex;
+    flex-flow: wrap column;
+    /* align-items: stretch; */
+
+    align-content: stretch;
+}
+
+.stretchcol div{
+    /* Because the align-content works on the 
+    cross-axis, and this is a column
+    you can't set a width (cross=row,horizontal, width) */
+    width: auto;
+    height: 3rem;
+    border: solid 1px black;
+    background-color: tomato;
+
+
+
+    
+    /* To center text inside the divs */
+    text-align: center;
+
+}
+
+
+

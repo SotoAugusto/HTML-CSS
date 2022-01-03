@@ -1,0 +1,49 @@
+/* flex container */
+header{
+    border: dashed 2px gray;
+    height: 80vh;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+}
+/* flex item */
+div{
+    width: 5rem;
+    height: 5rem;
+    border: solid 1px black;
+    background-color: tomato;
+    margin: 0.1rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+/* First header */
+.one div{
+    flex-grow: 1;
+}
+
+.one .item3{
+    flex-grow: 2;
+}
+
+
+/* Second header */
+.two div{
+    flex-grow: 1;
+}
+
+.two .item2, 
+.two .item4{
+    flex-grow: 2;
+}
+
+.two .item3{
+    flex-grow: 3;
+}
+
+/* Third header */
+.three div{
+    flex-grow: 1;
+}
+.three .item2{
+    flex-grow: 5;
+}

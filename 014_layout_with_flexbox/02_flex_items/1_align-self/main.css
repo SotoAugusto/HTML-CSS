@@ -1,0 +1,49 @@
+header{
+    border: dashed 2px gray;
+    height: 80vh;
+    display: flex;
+    flex-flow: row wrap;
+}
+div{
+    width: 8rem;
+    height: 5rem;
+    border: solid 1px black;
+    background-color: tomato;
+    margin: 0.1rem;
+    text-align: center;
+}
+/* The headers are my flex containers */
+
+.h-start{
+    align-items: flex-start;
+}
+
+.h-end{
+    align-items: flex-end;
+}
+
+.self_start{
+    /* Overwites align-items: flex-end */
+    align-self: flex-start;
+}
+
+.self_end{
+    /* Overwrites align-items: flex-start */
+    align-self: flex-end;
+}
+
+.self_center{
+    /* Overwirtes aling-items */
+    align-self: center;
+}
+
+.self_stretch{
+    /* The cross axis of row is vertical
+    so, you can't have a fixed height
+    in order to stretch work correctly */
+    height: auto;
+    /* Overwrites align-items */
+    align-self: stretch;
+}
+
+
