@@ -1,56 +1,53 @@
 /* flex container */
 header {
-    border: dashed 2px gray;
-    height: 80vh;
+  border: dashed 2px gray;
+  height: 80vh;
 
-    display: flex;
-  
-    /* You might want to set  nowrap to work properly 
+  display: flex;
+
+  /* You might want to set  nowrap to work properly 
       if the size of the window and item is not long enough*/
-    flex-flow: row nowrap;
+  flex-flow: row nowrap;
+}
+/* flex item */
+div {
+  width: 25rem;
+  height: 5rem;
+  border: solid 1px black;
+  background-color: tomato;
+  margin: 0.1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
 
-  }
-  /* flex item */
-  div {
-    width: 25rem;
-    height: 5rem;
-    border: solid 1px black;
-    background-color: tomato;
-    margin: 0.1rem;
-    text-align: center;
-    text-transform: uppercase;
-  }
+.one div {
+  /* flex-grow, flex-shrink, flex-basis */
+  flex: 1 1 auto;
+}
 
-  .one div{
-      /* flex-grow, flex-shrink, flex-basis */
-      flex: 1 1 auto;
-  }
+.one .item3 {
+  /* flex-grow, flex-shrink, flex-basis */
+  flex: 2 2 auto;
+}
 
-  .one .item3{
-      /* flex-grow, flex-shrink, flex-basis */
-      flex: 2 2 auto;
-  }
+.two div {
+  /* Same as flex: 1 1 auto; */
+  flex: auto;
+}
 
+.two .item2,
+.two .item4 {
+  flex: 2 2 auto;
+}
 
-  .two div{
-      /* Same as flex: 1 1 auto; */
-      flex: auto;
-  }
+.two .item3 {
+  flex: 3 3 auto;
+}
 
-  .two .item2,
-  .two .item4{
-      flex: 2 2 auto;
-  }
+.three div {
+  flex: auto;
+}
 
-  .two .item3{
-      flex: 3 3 auto;
-  }
-
-  .three div{
-    flex: auto;
-  }
-
-  .three .item2{
-      flex: 5 5 auto;
-  }
-
+.three .item2 {
+  flex: 5 5 auto;
+}

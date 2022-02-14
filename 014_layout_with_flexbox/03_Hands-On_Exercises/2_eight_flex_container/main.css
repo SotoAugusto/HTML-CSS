@@ -21,18 +21,30 @@
 .container_1{
     /* Default values */
     flex-flow: row nowrap;
+    /* justify doesnt does much because
+    there is barely space to work with */
+    justify-content: center;
+    align-items: flex-end;
+    
 }
 
 .container_2{
 flex-flow: row wrap;
+justify-content: flex-end;
+align-content: space-between;
+
 }
 
 .container_3{
 flex-flow: column wrap;
+justify-content: center;
+align-content: space-around; 
 }
 
 .container_4{
 flex-flow: column nowrap;
+justify-content: flex-start;
+align-items: flex-end;
 }
 
 .container_5{
