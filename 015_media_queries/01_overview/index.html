@@ -6,11 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="mq-900-minus.css">
+    
+    <!-- Links a css file that loads whe the viewport is 900px wide or up -->
+    <link rel="stylesheet" href="mq-900-plus.css"
+    media="(min-width:900px)">
+
+    <!-- Links a css file that loads when the viewport is 900px wide or lower -->
+    <link rel="stylesheet" href="mq-900-minus.css"
+    media="(max-width:900px)">
     <title>Document</title>
 </head>
-
 <body>
+
+    <h1>Header</h1>
+
+    <p class="p1">This text is green when the window is 900px and up.</p>
+    <p class="p2">This text is red hen the window is 900px or lower.</p>
+    <p class="p3">The header and this paragraph depend on the main css file.</p>
 
 </body>
 
