@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Applied when is the viewport is less than 799px -->
+    <link rel="stylesheet" href="main.css">
+    <!-- Applied when is the viewport is between 800px and 1000px-->
+
+    <link rel="stylesheet" href="mq-800px-up_and_mq-1000px-down.css" 
+    media="screen and (min-width: 800px) and (max-width: 1000px)">
+
+    <!-- Applied when is the viewport is 1000px or higher-->
+    <link rel="stylesheet" href="mq-1000px-up.css"
+    media="screen and (min-width: 1000px)">
+
+    <title>Document</title>
+</head>
+<body>
+    <h1>Multiple expressions on a media query</h1>
+
+    <h2>The text is <strong>red</strong> vieport is less than 799px</h2>
+    <h2>The text is <strong>green</strong> vieport is between 800px and 1000px</h2>
+    <h2>The text is <strong>blue</strong> vieport is 1000px or higher</h2>
+</body>
+</html>
