@@ -1,0 +1,22 @@
+h1, .p3{
+    color: rgba(255, 230, 0, 0.808);
+    font-weight: bold;
+}
+/* Using the media queries this way creates messy codeblocks,
+not preffered method */
+
+/* Runs when the viewport is 900px wide or up --> */
+@media (min-width:900px){
+    .p1{
+        color: green;
+        font-weight: bold;
+    }
+}
+
+/* Runs when the viewport is 900px wide or lower */
+@media (max-width:900px){
+    .p2{
+        color:red;
+        font-weight: bold;
+    }
+}
