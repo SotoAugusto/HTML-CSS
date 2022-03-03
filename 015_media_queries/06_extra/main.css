@@ -1,0 +1,53 @@
+header, nav, main, footer, address{
+    outline: red solid 1px;
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    /* Dont take all the width of the page */
+    width: 80%;
+    /* Top/bottom margin, and center */
+    margin: 1rem auto;
+    box-sizing: border-box;
+
+    /* Set the body as my flex container */
+    display: flex;
+    flex-flow: row wrap;
+}
+
+header, nav{
+    /* I dont want the header to wrap, so it can always take
+    all the width of the body of the page */
+    width: 100%;
+}
+
+ul{
+    /* Another flex container for my li with anchors */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+li{
+    /* These are now flex items */
+    list-style-type: none;
+    /* Separate link from each other */
+    padding: 10px;
+    
+    box-shadow: rgb(0 0 0 / 15%) 0px 1px 1px, rgb(0 0 0 / 15%) 0px 2px 2px, rgb(0 0 0 / 15%) 0px 4px 4px, rgb(0 0 0 / 15%) 0px 8px 8px;
+
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+main, footer{
+    width: 100%;
+    padding: 1rem;
+    
+}
+

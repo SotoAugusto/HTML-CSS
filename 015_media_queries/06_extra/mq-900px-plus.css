@@ -1,0 +1,17 @@
+
+ul {
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 0;
+}
+
+li{
+    width: 70%;
+}
+
+header{
+    width: 15%;
+}
+main{
+    width: 85%;
+}
