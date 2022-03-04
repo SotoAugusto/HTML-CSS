@@ -1,0 +1,56 @@
+/* simple reset */
+*{
+    /* padding 0 needed in order to hide ul */
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+ul{
+    /* flex container */
+    display: flex;
+    /* We achieve the same as row wrap
+    with 100% width with column nowrap */
+    flex-flow: column nowrap;
+}
+
+a{
+    /* a is an inline element by default */
+    display: block;
+}
+
+/* Styling */
+
+ul{
+    list-style: none;
+    background-color: #1c3251;
+
+}
+
+a{
+    color: white ;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1em;
+    text-align: center;
+    border: 1px solid lightslategray;
+    /* Only top, left and right borders */
+    border-bottom: none;
+
+}
+
+a:hover{
+    background-color: #36619d;
+}
+
+/* select the anchor of the last sibling li that has an anchor inside */
+li:last-child a{
+    /* Bottom border for the last button
+    making it this way creates a border of 1 px 
+    instead of 2px */
+    border-bottom: 1px solid lightslategray;
+    width: ;
+}
+

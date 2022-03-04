@@ -1,0 +1,22 @@
+ul{
+    /* Now it is row nowrap */
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+}
+
+
+a{
+    border: 1px solid lightslategray;
+    /* Only top, bottom and left borders */
+    border-right: none;
+}
+
+
+
+/* select the anchor of the last sibling li that has an anchor inside */
+li:last-child a{
+    /* right border for the last button
+    making it this way creates a border of 1 px 
+    instead of 2px */
+    border-right: 1px solid lightslategray;
+}
