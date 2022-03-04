@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    /* Flex container */
+    display: flex;
+    flex-flow: row wrap;
+}
+
+div{
+    /* Flex items */
+    /* .c2 and .c3 don't really need to be set as 100%
+    but anyways... */
+    width: 100%;
+    /* Used min-heigh insted of heigth bc of
+     the c4 div so it can wrap the two child divs */
+    min-height: 10rem;
+}
+
+.c4{
+    border: 2px solid red;
+}
+
+.c1{
+    background-color: aquamarine;
+}
+
+.c2{
+    background-color: blueviolet;
+}
+
+.c3{
+    background-color: blanchedalmond;
+}

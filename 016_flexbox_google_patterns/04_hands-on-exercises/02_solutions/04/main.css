@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    /* flex container */
+    display:flex;
+    flex-flow: row wrap;
+}
+
+div{
+    min-height: 10rem;
+    /* For the images */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+.c1{
+    background-color: antiquewhite;
+    width: 100%; 
+    background-image: url(../../../../img/triangles.png) ;
+}
+
+.c2{
+    background-color: darkviolet;
+    width: 33%;
+    background-image: url(../../../../img/book.jpg) ;
+}
+
+.c3{
+    background-color: skyblue;
+    width:33%;
+    background-image: url(../../../../img/hedgehog.jpg) ;
+}
+
+.c4{
+    background-color: peru;
+    width: 34%;
+    background-image: url(../../../../img/book.jpg) ;
+}
+
+.c5{
+    background-color: plum;
+    width: 70%;
+    background-image: url(../../../../img/triangles.png) ;
+
+}
+
+.c6{
+    background-color: darkorange;
+    width: 30%;
+    background-image: url(../../../../img/hedgehog.jpg) ;
+}
+
+.c7{
+    background-color: dodgerblue;
+    width: 100%;
+    background-image: url(../../../../img/triangles.png) ;
+
+}
