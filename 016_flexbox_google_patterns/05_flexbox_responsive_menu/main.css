@@ -51,6 +51,5 @@ li:last-child a{
     making it this way creates a border of 1 px 
     instead of 2px */
     border-bottom: 1px solid lightslategray;
-    width: ;
 }
 
