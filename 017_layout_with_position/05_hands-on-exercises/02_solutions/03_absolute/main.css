@@ -1,0 +1,27 @@
+div:first-child,
+div:first-child div{
+    border: 2px solid red;
+    box-sizing: border-box;
+}
+
+div:first-child{
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+
+    position: relative;
+    left: 200px;
+}
+
+
+div:first-child div{
+    width: 70px;
+    height: 70px;
+    background-color: hotpink;
+
+    position: absolute;
+    /* away from relative */
+    top: 100px;
+    left: 100px;
+
+}

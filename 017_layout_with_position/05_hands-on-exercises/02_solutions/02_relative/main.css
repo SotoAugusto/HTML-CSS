@@ -1,0 +1,22 @@
+body{
+    width: 80%;
+    border: solid 2px black;
+    margin: 20px auto;
+}
+
+div:nth-child(1),
+div:nth-child(2),
+div:nth-child(3){
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    border: 2px solid brown;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+div:nth-child(2){
+    position: relative;
+    top: 20px;
+    left: 20px;
+}

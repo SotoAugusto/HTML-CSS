@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+aside{
+    height: 50vh;
+    width: 10vw;
+    background-color: brown;
+    border: 3px dashed black;
+
+    position: fixed;
+    /* away from top */
+    top: 3em;
+}
+
+
+div{
+    width: 50vw;
+    height: 150vh;
+    background-color: deepskyblue;
+    border: 3px dashed black;
+    margin: 0 auto;
+}

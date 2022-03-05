@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+
+div{
+    background-color: brown;
+    border: dashed 1px black;
+    width: 10rem;
+    height: 10rem;
+    display: inline-block;
+}
+
+.relative{
+    background-color: blueviolet;
+    position: relative;
+    /* away from where it was before */
+    top: 10px;
+    left: 10px;
+
+    /* Used so it won't move when added text  */
+    vertical-align: top;
+
+}
