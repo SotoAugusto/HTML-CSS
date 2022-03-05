@@ -1,0 +1,23 @@
+*{
+    text-align: center;
+}
+header{
+    background-color: paleturquoise;
+}
+.aside1{
+    background-color: tomato;
+}
+
+main{
+    background-color: blueviolet;
+    
+}
+
+.aside2{
+    background-color: crimson;
+}
+
+footer{
+    background-color: violet;
+}
+

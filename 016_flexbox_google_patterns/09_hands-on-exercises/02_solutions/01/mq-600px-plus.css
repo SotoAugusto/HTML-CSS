@@ -1,0 +1,11 @@
+ul{
+    justify-content: flex-end;
+}
+
+li{
+    width: auto;
+}
+a{
+    padding: 15px;
+}
+

@@ -1,0 +1,17 @@
+div{
+    /* flex container */
+    display: flex;
+    /* flex-flow: row wrap; */
+}
+
+nav{
+    width: 20%;
+}
+
+article{
+    width: 60%;
+}
+
+aside{
+    width: 20%;
+}

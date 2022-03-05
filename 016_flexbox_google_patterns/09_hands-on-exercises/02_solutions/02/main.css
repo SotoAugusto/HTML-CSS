@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    height: 100vh;
+    border: 3px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../../../../img/coffee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: white;
+    font-size: 2rem;
+}
