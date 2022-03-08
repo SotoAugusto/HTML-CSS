@@ -1,0 +1,33 @@
+header, nav, main, footer{
+    text-align: center;
+    margin: 5px;
+}
+
+.normal{
+    height: 50px;
+    background-color: orange;
+
+}
+
+.left{
+    float: left;
+    height: 20vh;
+    width: 30vw;
+    background-color: cadetblue;
+
+
+}
+
+.right{
+    float: right;
+    height: 20vh;
+    width: 60vw;
+    background-color: lightblue;
+
+}
+
+.clear{
+    clear: both;
+    background-color: aqua;
+
+}
