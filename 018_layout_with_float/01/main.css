@@ -1,0 +1,38 @@
+/* do not select all divs */
+div:not(:last-child),
+img{
+    border: 2px solid red;
+    margin: 2rem;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+/* float the first image to the right */
+#right{
+    float: right;
+}
+
+/* float the second image to the left */
+#left{
+    float: left;
+}
+
+
+/* float with overflow */
+#left2{
+    float: left;
+}
+
+/* float WITHOUT OVERFLOW, FIXED
+using overflow: auto*/
+#left3{
+    float: left;
+    
+}
+
+.fix-overflow{
+    overflow: auto;
+}
