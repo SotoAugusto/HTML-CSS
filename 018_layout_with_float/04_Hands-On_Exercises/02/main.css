@@ -1,0 +1,11 @@
+.container{
+    border: solid 2px red;
+
+}
+
+img{
+    width: 20vw;
+    height: 50vh;
+    float: left;
+}
+

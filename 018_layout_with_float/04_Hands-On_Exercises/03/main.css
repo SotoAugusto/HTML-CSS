@@ -1,0 +1,14 @@
+.container{
+    border: solid 2px red;
+/* fixes overflow */
+    overflow:auto;
+
+
+}
+
+img{
+    width: 20vw;
+    height: 50vh;
+    float: left;
+}
+

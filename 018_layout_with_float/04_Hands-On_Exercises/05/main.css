@@ -1,0 +1,22 @@
+
+aside{
+    background-color: deepskyblue;
+
+    float: left;
+    width: 20%;
+    height: 80vh;
+}
+
+main{
+    background-color: brown;
+    float: right;
+    width: 79%;
+    height: 80vh;
+}
+
+footer{
+    background-color: hotpink;
+    clear: both;
+    width: 100%;
+    height: 15vh;
+}
