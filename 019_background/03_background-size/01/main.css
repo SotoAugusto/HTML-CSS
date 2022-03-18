@@ -1,0 +1,17 @@
+div{
+    margin: 0 auto;
+    border: solid 1px red;
+    height: 600px;
+    width: 900px;
+
+    background-image: url(../../../img/feather.svg);
+    background-repeat: no-repeat;
+}
+
+.contain{
+    background-size: contain;
+}
+
+.cover{
+    background-size: cover;
+}

@@ -1,0 +1,33 @@
+div{
+    border: solid 1px red;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../../img/feather.svg);
+}
+
+.repeat{
+    /* Deafault value */
+    background-repeat: repeat;   
+}
+
+.repeat-x{
+    background-repeat: repeat-x;
+}
+
+.repeat-y{
+    background-repeat: repeat-y;
+}
+.no-repeat{
+    background-repeat: no-repeat;
+}
+.repeat-round{
+    background-image: url(../../img/hedgehog.jpg);
+
+    background-repeat: round;
+}
+
+.repeat-space{
+    background-image: url(../../img/hedgehog.jpg);
+
+    background-repeat: space;
+}
