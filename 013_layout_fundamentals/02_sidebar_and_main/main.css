@@ -1,6 +1,6 @@
 *{
     /* This two will make a outline border for 
-    debbuging, and make that 
+    debugging, and make that 
     the borders don't break the layout*/
     border: 1px dashed darkgray;
     box-sizing: border-box;
