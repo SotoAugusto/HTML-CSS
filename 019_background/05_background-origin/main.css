@@ -1,0 +1,32 @@
+*{
+    border: 1px dashed hotpink;
+}
+div{
+    width: 600px;
+    height: 600px;
+    /* tomato BORDER */
+    border: 50px solid tomato;
+    padding: 80px;
+    /* text color */
+    color: white;
+    /* Includes padding and content */
+    background-color:#3A5FCD ;
+
+    background-image: url(../../img/triangle.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.content-box{
+    background-origin: content-box;
+}
+
+.padding-box{
+    background-origin: padding-box;
+
+}
+
+.border-box{
+    background-origin: border-box;
+
+}

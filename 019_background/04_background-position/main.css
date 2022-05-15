@@ -1,0 +1,22 @@
+div{
+    border: 1px red solid;
+    background-image: url(../../../img/hedgehog.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100vw;
+    height: 100vh;
+}
+
+        /* positioning */
+.center{
+        background-position: center;
+}
+/*                   x-axis y-axis */
+.right-bottom{
+background-position: right bottom;
+}
+/*                   x-axis y-axis */
+
+.px{
+    background-position: 500px 300px;
+}
