@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    border:0;
+    padding:0;
+
+}
+
+html, body{
+    height: 100%;
+}
+
+.vh{
+    /* All of the viewport */
+    width: 100vw;
+    height: 100vh;
+
+    background-color: red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    font-size: 15rem;
+}

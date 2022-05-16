@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+div {
+	border: 1px dashed hotpink;
+	height: 100vh;
+	width: 100vw;
+}
+
+.image {
+	/* image */
+	background-image: url(../1_instructions/exercise-files/dog.png);
+	background-repeat: repeat;
+}
+
+.repeat-y {
+	/* image */
+	background-image: url(../1_instructions/exercise-files/dog.png);
+    /* repeat-y */
+	background-repeat: repeat-y;
+}
+
+.size {
+	border: 5px dashed red;
+}
+
+.background-size {
+	width: 30vw;
+	height: 15vh;
+
+	/* image */
+	background-image: url(../1_instructions/exercise-files/dog.png);
+	background-repeat: repeat-y;
+	background-size: cover;
+}
+.background-size-percentage{
+    background-image: url(../1_instructions/exercise-files/dog.png);
+    background-repeat: no-repeat;
+    /* percentage */
+	background-size: 30%;
+}
+.contain{
+    width: 300px;
+    height: 300px;
+    border: 20px groove goldenrod;
+    background-image: url(../1_instructions/exercise-files/dog.png);
+	background-repeat: no-repeat;
+    /* contain */
+	background-size: contain;
+}
+.position{
+    width: 700px;
+    height: 700px;
+    border: 20px groove blueviolet;
+    background-image: url(../1_instructions/exercise-files/dog.png);
+	background-repeat: no-repeat;
+    /* contain
+	background-size: contain; */
+    background-position: 300px 10px;
+}
+.origin{
+	width: 800px;
+    height: 800px;
+    border: 60px solid black;
+	padding: 60px;
+    /* Applies to padding and content */
+    background-color: royalblue;
+    background-image: url(../1_instructions/exercise-files/dog.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+    /* textcolor */
+    color: white;
+	text-align: justify;
+
+	/* origin */
+	background-origin: content-box;
+}
