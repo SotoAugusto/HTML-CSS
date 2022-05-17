@@ -1,0 +1,29 @@
+*{
+    border: 1px solid hotpink;
+}
+
+#index_above-the-fold{
+    /* Make the container be as big as the window */
+    height: 100vh;
+
+    /* Layout
+    Center and make column */
+    display: flex;
+    flex-flow: column nowrap;
+
+    justify-content: center;
+    align-items: center;
+
+    /* background-image: ; */
+    background-color: #5b5b5b; /* for when the image is not yet loaded */
+    background-image: url(../img/background-photo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-origin: border-box; don't include a line that does nothing */
+    background-attachment: fixed;
+}
+
+.more-sec h2{
+    text-align: center;
+}

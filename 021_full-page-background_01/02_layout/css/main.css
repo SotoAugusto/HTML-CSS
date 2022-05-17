@@ -1,0 +1,16 @@
+*{
+    border: 1px solid pink;
+}
+
+#index_above-the-fold{
+    /* Make the container be as big as the window */
+    height: 100vh;
+
+    /* Layout
+    Center and make column */
+    display: flex;
+    flex-flow: column nowrap;
+
+    justify-content: center;
+    align-items: center;
+}
