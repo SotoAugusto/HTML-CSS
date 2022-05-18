@@ -1,0 +1,85 @@
+* {
+	border: 1px solid hotpink;
+	/* “to reduce browser inconsistencies in things like default line heights, 
+	margins and font sizes of headings, and so on" */
+	font: inherit;
+
+	line-height: 1.2;
+}
+
+html {
+	/* format text */
+	font-family: "Cantarell", sans-serif;
+	color: whitesmoke;
+}
+
+#index_above-the-fold {
+	/* Make the container be as big as the window */
+	height: 100vh;
+
+	/* Layout
+    Center and make column */
+	text-align: center;
+
+	display: flex;
+	flex-flow: column nowrap;
+
+	justify-content: center;
+	align-items: center;
+	/* background-image: ; */
+	background-color: #5b5b5b; /* for when the image is not yet loaded */
+	/* load smaller image for mobile*/
+	background-image: url(../img/background-photo-mobile-devices.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	/* background-origin: border-box; don't include a line that does nothing */
+	background-attachment: fixed;
+
+	/* format text */
+	text-transform: uppercase;
+}
+
+/* format text */
+
+h1 {
+	font-size: 3rem;
+	/* Normal weight */
+}
+
+h2 {
+
+	font-size: 1.4rem;
+	font-weight: 700;
+	/* bold */
+}
+
+h3 {
+	font-size: 1.4rem;
+}
+
+button {
+	font-size: 1.4rem;
+	/* bold */
+	font-weight: 700;
+
+	/* style button */
+	color: rgb(202, 250, 234);
+	background-color: transparent;
+	border: 1px solid rgb(202, 250, 234);
+	padding: 0.5rem;
+	border-radius: 5px;
+	text-transform: inherit;
+	/* Make cursor change to finger when hovering */
+	cursor: pointer;
+}
+
+#idx-atf-middle {
+	text-align: center;
+	/* TB margin */
+	margin: 10rem 0;
+}
+
+.more-sec h2 {
+	text-align: center;
+}

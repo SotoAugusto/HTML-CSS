@@ -1,0 +1,9 @@
+#index_above-the-fold {
+	/* when in desktop, load the bigger image */
+	background-image: url(../img/background-photo.jpg);
+}
+
+#idx-atf-middle {
+    /* make all go closer to the middle of the screen */
+	margin: 2rem 0;
+}
