@@ -1,0 +1,7 @@
+p{
+    /* disable font boosting */
+    /* make the max-height extremely large */
+    max-height: 9999999999px;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: none;
+}
