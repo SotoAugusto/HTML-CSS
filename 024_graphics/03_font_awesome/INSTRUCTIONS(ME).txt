@@ -1,0 +1,17 @@
+1) go to: https://fontawesome.com/download
+2) click download free for web 
+3) extract
+4) for better performance, just copy webfonts and css folder
+(or even just css!)
+5) link the css stlylesheet 'all'
+6) search for icons in https://fontawesome.com/search?m=free
+7) copy and paste
+8)done!
+
+
+
+
+
+more info: 
+https://fontawesome.com/docs/web/setup/host-yourself/webfonts
+https://fontawesome.com/docs/web/add-icons/how-to
