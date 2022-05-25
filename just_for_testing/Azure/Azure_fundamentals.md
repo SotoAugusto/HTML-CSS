@@ -16,8 +16,8 @@ Es un viaje de aprendizaje, colaboración, prácticas e inspiración a través d
 - Y mucho más…
 ## Módulos
  - [Introducción a los aspectos básicos de Azure](Introducción_a_los_aspectos_básicos_de_Azure)
-- [Conceptos fundamentales de Azure](Conceptos fundamentales de Azure)
-- [[Descripción de los componentes principales de la arquitectura de Azure]]
+- [Conceptos fundamentales de Azure](Conceptos_fundamentales_de_Azure)
+- [Descripción de los componentes principales de la arquitectura de Azure](Descripción_de_los_componentes_principales_de_la_arquitectura_de_Azure)
 
 # Related: [[Programming]]
 # References:
