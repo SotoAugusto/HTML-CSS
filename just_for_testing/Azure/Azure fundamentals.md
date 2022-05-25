@@ -15,8 +15,8 @@ Es un viaje de aprendizaje, colaboración, prácticas e inspiración a través d
 - Conexión con redes y máquinas virtuales.
 - Y mucho más…
 ## Módulos
- - [[Introducción a los aspectos básicos de Azure]]
-- [[Conceptos fundamentales de Azure]]
+ - [Introducción a los aspectos básicos de Azure](Introducción a los aspectos básicos de Azure)
+- [Conceptos fundamentales de Azure](Conceptos fundamentales de Azure)
 - [[Descripción de los componentes principales de la arquitectura de Azure]]
 
 # Related: [[Programming]]
