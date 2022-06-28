@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>stroke</h2>
+    <p>the equivalent to border, these 3  are the same length but using  different ends to the line (stroke-linecap)
+        <br>first butt
+        <br>second square, which leaves more 'margin' to the ends
+        <br>third rounds the ends also leaving a extra 'margin'
+    </p> 
+
+    
+    <svg width="160" height="140" xmlns="http://www.w3.org/2000/svg" version="1.1">
+      <line x1="40" x2="120" y1="20" y2="20" stroke="black" stroke-width="20" 
+      
+      stroke-linecap="butt"/>
+
+      <line x1="40" x2="120" y1="60" y2="60" stroke="black" stroke-width="20" 
+
+      stroke-linecap="square"/>
+
+      <line x1="40" x2="120" y1="100" y2="100" stroke="black" stroke-width="20" 
+      
+      stroke-linecap="round"/>
+    </svg>
+    
+    <p>control how the joins between two lines are drawn with stroke-linejoin
+        <br>first miter, which creates a square corner
+        <br>second round, creates a rounded corner
+        <br>third bevel, creates a new angle to aid in the transition between the two segments.
+    </p>
+<svg width="160" height="280" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <polyline points="40 60 80 20 120 60" stroke="black" stroke-width="20"
+       fill="none" stroke-linejoin="miter"/>
+
+  <polyline points="40 140 80 100 120 140" stroke="black" stroke-width="20"
+       fill="none" stroke-linejoin="round"/>
+
+  <polyline points="40 220 80 180 120 220" stroke="black" stroke-width="20"
+       fill="none" stroke-linejoin="bevel"/>
+</svg>
+
+
+
+    <h2>fill</h2>
+    <p>the equivalent to background, sets the color inside the object </p>
+    
+    <svg width="160" height="280" xmlns="http://www.w3.org/2000/svg" version="1.1">
+           
+    <rect x="10" y="10" width="100" height="100" stroke="blue" 
+    
+    fill="purple"
+    fill-opacity="0.5" 
+    
+    stroke-opacity="0.8"/>
+    </svg>
+
+</body>
+</html>
